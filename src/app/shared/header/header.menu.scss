@@ -1,0 +1,59 @@
+.newMenu {
+    width: 250px;
+    height: 400px;
+    background: #6B63DD;
+    position: absolute;
+    left: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &-input {
+        &-inputs {
+            width: 224px;
+            height: 30px;
+            border: 0;
+            padding-left: 10px;
+            background: #FFFFFF;
+            border-radius: 27px;
+        }
+    }
+    &-option{
+width: 200px;
+height: 300px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+    }
+}
+
+
+
+.tabel{
+display: flex;
+justify-content: space-between;
+
+    &-slac{
+        border: 0;
+        background: border-box;
+        color: #FFFFFF;
+    }
+    &-link{
+        width: 135px;
+height: 24px;
+color: #FFFFFF;
+    }
+}
+
+.name-icon{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+.menu-icon{
+    font-size: 20px;
+    color: #FFFFFF;
+}

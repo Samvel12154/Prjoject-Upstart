@@ -1,0 +1,80 @@
+<header>
+  <nav class="navbar">
+    <div class="navbar-menuee" (click)="block=!block">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div><a class="navbar-name" routerLink="/">Upstart</a> </div>
+    <div><input class="navbar-srch" type="text"></div>
+    <div class="navbar-blog">
+      <div class="navbar-blog-icon">
+        <a routerLink="favorite">
+          <fa-icon class="iconn" [icon]="faHeart"></fa-icon>
+        </a>
+        <a routerLink="basket">
+          <fa-icon class="iconn" [icon]="faBasketShopping"></fa-icon>
+        </a>
+        <a routerLink="/#">
+          <fa-icon class="iconn" [icon]="faBel"></fa-icon>
+        </a>
+        <a routerLink="/#">
+          <fa-icon class="iconn" [icon]="faUser"></fa-icon>
+        </a>
+
+      </div>
+      <div class="navbar-blog-mini">
+        <a routerLink="/basket">
+          <fa-icon class="iconn"[icon]="faBasketShopping"></fa-icon>
+        </a>
+        <a routerLink="#">
+          <fa-icon class="iconn" [icon]="faBel"></fa-icon>
+        </a>
+      </div>
+      <div class="navbar-blog-lenguich">
+        <fa-icon class="icon" [icon]="faGlobe"></fa-icon>
+
+        <select class="navbar-blog-lenguich-lng" id="cars">
+          <option value="volvo">ENG</option>
+          <option value="saab">ARM</option>
+
+        </select>
+      </div>
+    </div>
+
+  </nav>
+</header>
+<div class="menu">
+  <a href="" class="menu-link">Development</a>
+  <a href="" class="menu-link">Photography</a>
+  <a href="" class="menu-link">Marketing</a>
+  <a href="" class="menu-link">IT and Software</a>
+  <a href="" class="menu-link">Design</a>
+  <a href="" class="menu-link">Business</a>
+  <a href="" class="menu-link">Music</a>
+  <a href="" class="menu-link">Health & Fitness</a>
+</div>
+
+
+
+
+<div *ngIf="block" class="newMenu">
+<div class="newMenu-input">
+  <input class="newMenu-input-inputs" type="text" placeholder="What do you want to learn">
+</div>
+<div class="newMenu-option">
+  <div class="tabel"> <a href="" class="tabel-link">Development</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">Photography</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">Marketing</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">IT and Software</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">Design</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">Business</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">Music</a>   <select class="tabel-slac" id="cars"></select></div>
+  <div class="tabel"><a href="" class="tabel-link">Health & Fitness</a>   <select class="tabel-slac" id="cars"></select></div>
+<hr>
+<div><fa-icon class="menu-icon" [icon]="faUser"></fa-icon> <span class="name-icon">Profile</span></div>
+<div> <fa-icon class="menu-icon" [icon]="faHeart"></fa-icon><span class="name-icon">Favorites</span></div>
+</div>
+
+
+</div>

@@ -1,0 +1,140 @@
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #737373;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #13013F;
+    margin-top: 10px;
+}
+
+
+.component {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1239px;
+    margin: auto;
+}
+
+.shoping {
+
+    &-blog {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 66%;
+
+        &-img {
+            width: 151px;
+            height: 113px;
+            border-radius: 8px 0px 0px 8px;
+        }
+    }
+}
+
+.shoping-blog-title-name {
+    width: 320px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+
+        color: #13013F;
+    }
+
+    div {
+        height: 100%;
+        width: 1px;
+        background-color: black;
+    }
+
+    span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6B63DD;
+    }
+}
+
+
+.shoping-blog-title-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 650px;
+    height: 36px;
+    color: #737373;
+}
+
+
+.shoping-blog-title-icon {
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.component-btn {
+    width: 100%;
+    height: 170px;
+  
+   justify-content: center;
+    display: flex;
+   align-items: flex-end;
+    flex-direction: column;
+
+    &-caunt {
+       
+        small {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #7A819F;
+
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 18px;
+            color: #13013F;
+        }
+    }
+    &-submit{
+ width: 260px;
+height: 57px;
+background: #6B63DD;
+border-radius: 50px;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+border: 0;
+    }
+
+}

@@ -1,0 +1,152 @@
+.name {
+    // width: 100%;
+    max-width: 1239px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.component {
+    width: 100%;
+    max-width: 1239px;
+
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-between;
+
+
+    &-product {
+        width: 401px;
+        height: 540px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-img {
+            // width: 401px;
+            height: 300px;
+            border-radius: 8px;
+        }
+
+        &-name {
+            display: flex;
+            width: 91%;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+            height: 200px;
+
+            &-new {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+
+
+                &-h2 {
+
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    color: #13013F;
+                    background-color: wheat;
+
+                }
+            }
+
+            &-text {
+                // width: 353px;
+                height: 60px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+
+                letter-spacing: 0.2px;
+                color: #737373;
+            }
+
+            &-reting {}
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+}
+
+
+.caunt {
+    width: 54px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+    opacity: 0.5;
+}
+
+.cauntt {
+    width: 47px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #13013F;
+    order: 1;
+}
+
+.upstart-blog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+@media only screen and (max-width: 580px){
+    .component{
+        justify-content: center;
+    }
+    .image{
+        width: 328px;
+        height: 245px;
+    }
+    .component-product-img{
+        height: 250px;
+    }
+    .component-product-name{
+        width: 88%;
+    }
+    .name{
+        margin-left: 16px;
+    }
+    .component-product{
+        height: 470px;
+    }
+}

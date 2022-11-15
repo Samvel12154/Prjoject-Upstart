@@ -1,0 +1,30 @@
+<h2 class="name">New In upstart</h2>
+<div class="component">
+    <div class="component-product" *ngFor="let item of product">
+        <div class="component-product-img">
+            <img class="image" [src]="item.productImage" alt="" />
+        </div>
+
+        <div class="component-product-name">
+            <div class="component-product-name-new">
+                <h2>{{item.name}}</h2>
+                <div><img [src]="item.count" alt="" /></div>
+            </div>
+            <div class="component-product-name-text">{{item.text}}</div>
+            <div class="component-product-name-reting"><small class="caunt">${{item.value}}</small> <span
+                    class="cauntt">${{item.newvalue}}</span></div>
+            <div class="upstart-blog">
+                <span class="upstart-blog-Progress">
+                    <fa-icon style="font-size: 20px" [icon]="faClock"></fa-icon>22hr 30min
+                </span>
+                <span class="upstart-blog-Progress">
+                    <fa-icon style="font-size: 20px" [icon]="faChartSimple"></fa-icon>64 Lessons
+                </span>
+                <span class="upstart-blog-Progress">
+                    <fa-icon style="font-size: 20px" [icon]="faAtlas"></fa-icon>Progress
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
